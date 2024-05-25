@@ -24,7 +24,7 @@ const db = module.exports =async ()=>{
       user: process.env.DBUSERNAME,
       pass:   process.env.DBPASSWORD
     })
-    console.log("MongoDB Connection is Successful")
+    console.log("MongoDB Atlas Connection is Successful")
   } catch(error){
     console.log(error);
     console.log("MongoDB Connection is failed")
